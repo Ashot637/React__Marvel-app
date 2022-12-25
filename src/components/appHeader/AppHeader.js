@@ -11,7 +11,7 @@ const AppHeader = () => {
             </h1>
             <nav className="app__menu">
                 <ul>
-                    <li><NavLink  
+                    <li><NavLink
                     to="/React__Marvel-app" 
                     style={({ isActive }) => (isActive ? {color: '#9F0013'} : null)}>Characters</NavLink>
                     </li>/
