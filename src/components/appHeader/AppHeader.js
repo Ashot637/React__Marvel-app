@@ -5,18 +5,18 @@ const AppHeader = () => {
     return (
         <header className="app__header">
             <h1 className="app__title">
-                <Link to="/" >
+                <Link to="/React__Marvel-app">
                     <span>Marvel</span> information portal
                 </Link>
             </h1>
             <nav className="app__menu">
                 <ul>
                     <li><NavLink
-                    to="/" 
+                    to="/React__Marvel-app" 
                     style={({ isActive }) => (isActive ? {color: '#9F0013'} : null)}>Characters</NavLink>
                     </li>/
                     <li><NavLink 
-                    to="/comics" 
+                    to="/React__Marvel-app/comics" 
                     style={({ isActive }) => (isActive ? {color: '#9F0013'} : null)}>Comics</NavLink></li>
                 </ul>
             </nav>

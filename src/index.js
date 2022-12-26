@@ -5,7 +5,7 @@ import { HashRouter } from 'react-router-dom';
 import './style/style.scss';
 
 ReactDOM.render(
-      <HashRouter basename='/'>
+      <HashRouter basename='/React__Marvel-app'>
         <App />
       </HashRouter>,
     document.getElementById('root')

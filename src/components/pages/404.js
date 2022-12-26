@@ -6,7 +6,8 @@ const Page404 = () => {
         <div>
             <ErrorMessage/>
             <p style={{'textAlign': 'center', 'fontWeight': 'bold', 'fontSize': '24px'}}>Page doesn't exist</p>
-            <Link style={{'display': 'block', 'textAlign': 'center', 'fontWeight': 'bold', 'fontSize': '24px', 'marginTop': '30px'}} to="/">
+            <Link style={{'display': 'block', 'textAlign': 'center', 'fontWeight': 'bold', 'fontSize': '24px', 'marginTop': '30px'}} 
+            to="/React__Marvel-app">
             <button className="button button__main button__long">
                 <div className="inner">
                     Back to main page

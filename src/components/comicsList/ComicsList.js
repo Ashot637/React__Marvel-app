@@ -41,7 +41,7 @@ const ComicsList = (props) => {
             return (
                 <CSSTransition timeout={500} in={true} classNames="comics__item" key={i}>
                     <li className="comics__item">
-                        <Link to={`/comics/${item.id}`}>
+                        <Link to={`/React__Marvel-app/comics/${item.id}`}>
                             <img src={item.thumbnail} alt={item.title} className="comics__item-img"/>
                             <div className="comics__item-name">{item.title}</div>
                             <div className="comics__item-price">{item.price}</div>
